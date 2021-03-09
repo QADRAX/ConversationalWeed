@@ -1,4 +1,4 @@
-[![Lastest build](https://github.com/QADRAX/ConversationalWeed/actions/workflows/Build/badge.svg)](https://github.com/QADRAX/ConversationalWeed/actions)
+[![Lastest build](https://github.com/QADRAX/ConversationalWeed/actions/workflows/Build.yml/badge.svg)](https://github.com/QADRAX/ConversationalWeed/actions)
 # Conversational Weed 
 
 ConversationalWeed is a card game bot for Discord based on the popular card game. Developed during the 2020 quarantine, the game spans long and fun gaming sessions for 3-8 players. The game includes features for personal statistics and a skin store! 
