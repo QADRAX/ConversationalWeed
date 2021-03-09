@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConversationalWeed.DAL.Abstractions\ConversationalWeed.DAL.Abstractions.csproj" />
+    <ProjectReference Include="..\ConversationalWeed.Game.Data.Abstractions\ConversationalWeed.Game.Data.Abstractions.csproj" />
+    <ProjectReference Include="..\ConversationalWeed.Models\ConversationalWeed.Models.csproj" />
+    <ProjectReference Include="..\ConversationalWeed.Resources\ConversationalWeed.Resources.csproj" />
+  </ItemGroup>
+
+</Project>

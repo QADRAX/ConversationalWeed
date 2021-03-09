@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConversationalWeed.DB\ConversationalWeed.DB.csproj" />
+    <ProjectReference Include="..\ConversationalWeed.Game.Abstractions\ConversationalWeed.Game.Abstractions.csproj" />
+    <ProjectReference Include="..\ConversationalWeed.Game.Pictures.Abstractions\ConversationalWeed.Game.Pictures.Abstractions.csproj" />
+    <ProjectReference Include="..\ConversationalWeed.Resources\ConversationalWeed.Resources.csproj" />
+  </ItemGroup>
+
+</Project>
