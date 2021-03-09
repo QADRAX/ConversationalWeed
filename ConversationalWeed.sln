@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Host", "ConversationalWeed.Host\ConversationalWeed.Host.csproj", "{C5044AF8-C39F-41B9-BDD3-574ED6BD2DE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Host", "src\ConversationalWeed.Host\ConversationalWeed.Host.csproj", "{C5044AF8-C39F-41B9-BDD3-574ED6BD2DE0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Game", "ConversationalWeed.Game\ConversationalWeed.Game.csproj", "{E590D784-5929-4155-BC4D-9A96F75BA615}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Game", "src\ConversationalWeed.Game\ConversationalWeed.Game.csproj", "{E590D784-5929-4155-BC4D-9A96F75BA615}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Models", "ConversationalWeed.Models\ConversationalWeed.Models.csproj", "{5C52BC52-7D98-4114-A41E-5D11C9928967}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Models", "src\ConversationalWeed.Models\ConversationalWeed.Models.csproj", "{5C52BC52-7D98-4114-A41E-5D11C9928967}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Resources", "ConversationalWeed.Resources\ConversationalWeed.Resources.csproj", "{631AFCE7-920A-4188-B207-2D937CAC9142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Resources", "src\ConversationalWeed.Resources\ConversationalWeed.Resources.csproj", "{631AFCE7-920A-4188-B207-2D937CAC9142}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Infrastructure", "ConversationalWeed.Infrastructure\ConversationalWeed.Infrastructure.csproj", "{35B2F47C-2F74-435D-8212-1B4CB0C89CF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Infrastructure", "src\ConversationalWeed.Infrastructure\ConversationalWeed.Infrastructure.csproj", "{35B2F47C-2F74-435D-8212-1B4CB0C89CF9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Services", "ConversationalWeed.Services\ConversationalWeed.Services.csproj", "{D14C05D1-46A6-4C19-95D9-C71E0E24F11A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Services", "src\ConversationalWeed.Services\ConversationalWeed.Services.csproj", "{D14C05D1-46A6-4C19-95D9-C71E0E24F11A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Host", "6. Host", "{738630D4-CAA3-4295-ADB3-8520BC074B14}"
 EndProject
@@ -27,11 +27,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Models", "2. Models", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Resources", "1. Resources", "{ECA7B93B-4AA8-4CCC-845C-F08825862FF4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Game.Abstractions", "ConversationalWeed.Game.Abstractions\ConversationalWeed.Game.Abstractions.csproj", "{66FFFDFF-C3E8-4ECC-8BA9-B0E63DCFBFE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Game.Abstractions", "src\ConversationalWeed.Game.Abstractions\ConversationalWeed.Game.Abstractions.csproj", "{66FFFDFF-C3E8-4ECC-8BA9-B0E63DCFBFE4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Game.Pictures", "ConversationalWeed.Game.Pictures\ConversationalWeed.Game.Pictures.csproj", "{9C9697BE-ECEC-4630-AA41-94DCF6994461}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Game.Pictures", "src\ConversationalWeed.Game.Pictures\ConversationalWeed.Game.Pictures.csproj", "{9C9697BE-ECEC-4630-AA41-94DCF6994461}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Game.Pictures.Abstractions", "ConversationalWeed.Game.Pictures.Abstractions\ConversationalWeed.Game.Pictures.Abstractions.csproj", "{65A56081-EB22-4ED8-B625-157207E1AECF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Game.Pictures.Abstractions", "src\ConversationalWeed.Game.Pictures.Abstractions\ConversationalWeed.Game.Pictures.Abstractions.csproj", "{65A56081-EB22-4ED8-B625-157207E1AECF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3CDAB9E3-43DD-414B-B722-A293AF1F1951}"
 	ProjectSection(SolutionItems) = preProject
@@ -41,15 +41,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. DB", "0. DB", "{FB7EFB22-C8FD-4CE1-B07E-649BFC4E66C7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.DB", "ConversationalWeed.DB\ConversationalWeed.DB.csproj", "{33B7FAF0-3326-4F4C-80D6-A03643162FFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.DB", "src\ConversationalWeed.DB\ConversationalWeed.DB.csproj", "{33B7FAF0-3326-4F4C-80D6-A03643162FFD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.DAL", "ConversationalWeed.DAL\ConversationalWeed.DAL.csproj", "{DFB69D08-E33B-432E-A79E-4E5BB2BB573F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.DAL", "src\ConversationalWeed.DAL\ConversationalWeed.DAL.csproj", "{DFB69D08-E33B-432E-A79E-4E5BB2BB573F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.DAL.Abstractions", "ConversationalWeed.DAL.Abstractions\ConversationalWeed.DAL.Abstractions.csproj", "{BE2F16A5-6EBC-4F4A-BB4A-4727A79FF5FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.DAL.Abstractions", "src\ConversationalWeed.DAL.Abstractions\ConversationalWeed.DAL.Abstractions.csproj", "{BE2F16A5-6EBC-4F4A-BB4A-4727A79FF5FD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Game.Data", "ConversationalWeed.Game.Data\ConversationalWeed.Game.Data.csproj", "{C1284B70-72ED-477D-896A-7A6446B871A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Game.Data", "src\ConversationalWeed.Game.Data\ConversationalWeed.Game.Data.csproj", "{C1284B70-72ED-477D-896A-7A6446B871A1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Game.Data.Abstractions", "ConversationalWeed.Game.Data.Abstractions\ConversationalWeed.Game.Data.Abstractions.csproj", "{5AC4D7AB-38EE-4FE5-93A6-62C5B1770BA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversationalWeed.Game.Data.Abstractions", "src\ConversationalWeed.Game.Data.Abstractions\ConversationalWeed.Game.Data.Abstractions.csproj", "{5AC4D7AB-38EE-4FE5-93A6-62C5B1770BA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
