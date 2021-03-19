@@ -17,6 +17,7 @@ namespace ConversationalWeed.Game.Pictures
         public static int FIELD_TITLE_MARGIN = 5;
         public static int TEXT_HEIGHT = 80;
         public static Font DEFAULT_FONT = new Font("Tahoma", 32, FontStyle.Bold);
+        public static string DEFAULT_SKIN = "default";
 
         public MemoryStream GenerateGameBoard(IList<Player> players)
         {
@@ -27,7 +28,7 @@ namespace ConversationalWeed.Game.Pictures
 
             foreach (Player player in players)
             {
-                Bitmap playerBoard = GeneratePlayerBoard(player);
+                Bitmap playerBoard = GeneratePlayerBoard(player, players);
                 width = playerBoard.Width > width ? playerBoard.Width : width;
                 height += playerBoard.Height;
                 playerBoards.Add(playerBoard);
@@ -100,7 +101,7 @@ namespace ConversationalWeed.Game.Pictures
             return ms;
         }
 
-        private Bitmap GeneratePlayerBoard(Player player)
+        private Bitmap GeneratePlayerBoard(Player player, IList<Player> players)
         {
             int numberOfDogsOrBusted = player.Fields
                 .Where(f => f.ProtectedValue == ProtectedFieldValue.Busted || f.ProtectedValue == ProtectedFieldValue.Dog)
@@ -141,12 +142,14 @@ namespace ConversationalWeed.Game.Pictures
                         cardY += CARD_HEIGHT + MARGIN;
                         if (field.ProtectedValue != ProtectedFieldValue.Free)
                         {
-                            Image topCardImage = GetImageCard(field.ProtectedValue, player.CurrentCardSkin);
+                            string protectedFieldSkin = GetProtectedFieldSkin(field, players);
+                            Image topCardImage = GetImageCard(field.ProtectedValue, protectedFieldSkin);
                             RectangleF topCardRect = new RectangleF(cardX, topCardY, CARD_WIDTH, CARD_HEIGHT);
                             graphics.DrawImage(topCardImage, topCardRect);
                         }
                     }
-                    Image cardImage = GetImageCard(field.Value, player.CurrentCardSkin);
+                    string fieldSkin = GetFieldSkin(field, players);
+                    Image cardImage = GetImageCard(field.Value, fieldSkin);
                     RectangleF cardRect = new RectangleF(cardX, cardY, CARD_WIDTH, CARD_HEIGHT);
                     graphics.DrawImage(cardImage, cardRect);
 
@@ -160,7 +163,37 @@ namespace ConversationalWeed.Game.Pictures
             return finalImage;
         }
 
-        private Image GetImageCard(FieldValue fieldState, string cardSkin = "default")
+        private string GetProtectedFieldSkin(Field field, IList<Player> players)
+        {
+            string fieldSkin = DEFAULT_SKIN;
+            if (field.ProtectedValueOwnerId.HasValue)
+            {
+                var owner = players.FirstOrDefault(p => p.Id == field.ProtectedValueOwnerId.Value);
+                if (owner != null)
+                {
+                    fieldSkin = owner.CurrentCardSkin;
+                }
+            }
+
+            return fieldSkin;
+        }
+
+        private string GetFieldSkin(Field field, IList<Player> players)
+        {
+            string fieldSkin = DEFAULT_SKIN;
+            if (field.ValueOwnerId.HasValue)
+            {
+                var owner = players.FirstOrDefault(p => p.Id == field.ValueOwnerId.Value);
+                if (owner != null)
+                {
+                    fieldSkin = owner.CurrentCardSkin;
+                }
+            }
+
+            return fieldSkin;
+        }
+
+        private Image GetImageCard(FieldValue fieldState, string cardSkin)
         {
             Image img = fieldState switch
             {
@@ -175,7 +208,7 @@ namespace ConversationalWeed.Game.Pictures
             return img;
         }
 
-        private Image GetImageCard(ProtectedFieldValue protectedState, string cardSkin = "default")
+        private Image GetImageCard(ProtectedFieldValue protectedState, string cardSkin)
         {
             Image img = protectedState switch
             {
@@ -190,7 +223,7 @@ namespace ConversationalWeed.Game.Pictures
         {
             Image img = cardType switch
             {
-                CardType.Weed1 => Image.FromFile("Images/"+ cardSkin +"/oneplant.bmp"),
+                CardType.Weed1 => Image.FromFile("Images/" + cardSkin + "/oneplant.bmp"),
                 CardType.Weed2 => Image.FromFile("Images/" + cardSkin + "/twoplant.bmp"),
                 CardType.Weed3 => Image.FromFile("Images/" + cardSkin + "/threeplant.bmp"),
                 CardType.Weed4 => Image.FromFile("Images/" + cardSkin + "/fourplant.bmp"),
