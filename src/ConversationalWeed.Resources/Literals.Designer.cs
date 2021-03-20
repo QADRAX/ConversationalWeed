@@ -97,7 +97,7 @@ namespace ConversationalWeed.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Usa !weed help 2 si necesitas ayuda con los comandos de juego. \nEsta es tu mano:.
+        ///   Looks up a localized string similar to Usa !weed help 2 si necesitas ayuda con los comandos de juego. Esta es tu mano:.
         /// </summary>
         public static string HandInfoMessage {
             get {
