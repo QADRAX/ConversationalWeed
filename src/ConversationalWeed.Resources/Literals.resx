@@ -130,7 +130,7 @@
     <value>Vaya, parece tu mano esta rota, no puedes usar una mierda, no tienes cartas validas en este momento, lo se, es una especie de fallo en matrix pero tendras que descartar una carta. Usa !weed discard [carta_de_tu_mano]</value>
   </data>
   <data name="HandInfoMessage" xml:space="preserve">
-    <value>Usa !weed help 2 si necesitas ayuda con los comandos de juego. \nEsta es tu mano:</value>
+    <value>Usa !weed help 2 si necesitas ayuda con los comandos de juego. Esta es tu mano:</value>
   </data>
   <data name="HelpTitle" xml:space="preserve">
     <value>Mostrando información de comandos</value>

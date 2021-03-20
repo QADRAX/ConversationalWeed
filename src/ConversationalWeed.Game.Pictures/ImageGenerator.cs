@@ -197,12 +197,12 @@ namespace ConversationalWeed.Game.Pictures
         {
             Image img = fieldState switch
             {
-                FieldValue.OnePlant => Image.FromFile("Images/" + cardSkin + "/oneplant.bmp"),
-                FieldValue.TwoPlants => Image.FromFile("Images/" + cardSkin + "/twoplant.bmp"),
-                FieldValue.ThreePlants => Image.FromFile("Images/" + cardSkin + "/threeplant.bmp"),
-                FieldValue.FourPlants => Image.FromFile("Images/" + cardSkin + "/fourplant.bmp"),
-                FieldValue.SixPlants => Image.FromFile("Images/" + cardSkin + "/sixplant.bmp"),
-                FieldValue.Dandelion => Image.FromFile("Images/" + cardSkin + "/dandelion.bmp"),
+                FieldValue.OnePlant => Image.FromFile("Images/" + cardSkin + "/oneplant.jpg"),
+                FieldValue.TwoPlants => Image.FromFile("Images/" + cardSkin + "/twoplant.jpg"),
+                FieldValue.ThreePlants => Image.FromFile("Images/" + cardSkin + "/threeplant.jpg"),
+                FieldValue.FourPlants => Image.FromFile("Images/" + cardSkin + "/fourplant.jpg"),
+                FieldValue.SixPlants => Image.FromFile("Images/" + cardSkin + "/sixplant.jpg"),
+                FieldValue.Dandelion => Image.FromFile("Images/" + cardSkin + "/dandelion.jpg"),
                 _ => Image.FromFile("Images/empty.png"),
             };
             return img;
@@ -212,8 +212,8 @@ namespace ConversationalWeed.Game.Pictures
         {
             Image img = protectedState switch
             {
-                ProtectedFieldValue.Busted => Image.FromFile("Images/" + cardSkin + "/busted.bmp"),
-                ProtectedFieldValue.Dog => Image.FromFile("Images/" + cardSkin + "/dog.bmp"),
+                ProtectedFieldValue.Busted => Image.FromFile("Images/" + cardSkin + "/busted.jpg"),
+                ProtectedFieldValue.Dog => Image.FromFile("Images/" + cardSkin + "/dog.jpg"),
                 _ => Image.FromFile("Images/empty.png"),
             };
             return img;
@@ -223,19 +223,19 @@ namespace ConversationalWeed.Game.Pictures
         {
             Image img = cardType switch
             {
-                CardType.Weed1 => Image.FromFile("Images/" + cardSkin + "/oneplant.bmp"),
-                CardType.Weed2 => Image.FromFile("Images/" + cardSkin + "/twoplant.bmp"),
-                CardType.Weed3 => Image.FromFile("Images/" + cardSkin + "/threeplant.bmp"),
-                CardType.Weed4 => Image.FromFile("Images/" + cardSkin + "/fourplant.bmp"),
-                CardType.Weed6 => Image.FromFile("Images/" + cardSkin + "/sixplant.bmp"),
-                CardType.Dandileon => Image.FromFile("Images/" + cardSkin + "/dandelion.bmp"),
-                CardType.WeedKiller => Image.FromFile("Images/" + cardSkin + "/weedkiller.bmp"),
-                CardType.Stealer => Image.FromFile("Images/" + cardSkin + "/stealer.bmp"),
-                CardType.Monzon => Image.FromFile("Images/" + cardSkin + "/monzon.bmp"),
-                CardType.Hippie => Image.FromFile("Images/" + cardSkin + "/hippie.bmp"),
-                CardType.Dog => Image.FromFile("Images/" + cardSkin + "/dog.bmp"),
-                CardType.Busted => Image.FromFile("Images/" + cardSkin + "/busted.bmp"),
-                CardType.Potzilla => Image.FromFile("Images/" + cardSkin + "/potzilla.bmp"),
+                CardType.Weed1 => Image.FromFile("Images/" + cardSkin + "/oneplant.jpg"),
+                CardType.Weed2 => Image.FromFile("Images/" + cardSkin + "/twoplant.jpg"),
+                CardType.Weed3 => Image.FromFile("Images/" + cardSkin + "/threeplant.jpg"),
+                CardType.Weed4 => Image.FromFile("Images/" + cardSkin + "/fourplant.jpg"),
+                CardType.Weed6 => Image.FromFile("Images/" + cardSkin + "/sixplant.jpg"),
+                CardType.Dandileon => Image.FromFile("Images/" + cardSkin + "/dandelion.jpg"),
+                CardType.WeedKiller => Image.FromFile("Images/" + cardSkin + "/weedkiller.jpg"),
+                CardType.Stealer => Image.FromFile("Images/" + cardSkin + "/stealer.jpg"),
+                CardType.Monzon => Image.FromFile("Images/" + cardSkin + "/monzon.jpg"),
+                CardType.Hippie => Image.FromFile("Images/" + cardSkin + "/hippie.jpg"),
+                CardType.Dog => Image.FromFile("Images/" + cardSkin + "/dog.jpg"),
+                CardType.Busted => Image.FromFile("Images/" + cardSkin + "/busted.jpg"),
+                CardType.Potzilla => Image.FromFile("Images/" + cardSkin + "/potzilla.jpg"),
                 _ => Image.FromFile("Images/empty.png"),
             };
             return img;

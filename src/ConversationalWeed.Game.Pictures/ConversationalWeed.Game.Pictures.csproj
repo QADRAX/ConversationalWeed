@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -15,94 +15,52 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Images\blue\busted.bmp">
+    <None Update="Images\blue\busted.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\blue\dandelion.bmp">
+    <None Update="Images\blue\dandelion.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\blue\dog.bmp">
+    <None Update="Images\blue\dog.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\blue\fourplant.bmp">
+    <None Update="Images\blue\fourplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\blue\hippie.bmp">
+    <None Update="Images\blue\hippie.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\blue\monzon.bmp">
+    <None Update="Images\blue\monzon.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\blue\oneplant.bmp">
+    <None Update="Images\blue\oneplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\blue\potzilla.bmp">
+    <None Update="Images\blue\potzilla.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\blue\sixplant.bmp">
+    <None Update="Images\blue\sixplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\blue\stealer.bmp">
+    <None Update="Images\blue\stealer.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\blue\threeplant.bmp">
+    <None Update="Images\blue\threeplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\blue\twoplant.bmp">
+    <None Update="Images\blue\twoplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\blue\weedkiller.bmp">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\default\busted.bmp">
+    <None Update="Images\blue\weedkiller.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Images\default\busted.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\default\dandelion.bmp">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="Images\default\dandelion.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\default\dog.bmp">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="Images\default\dog.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\default\fourplant.bmp">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\default\hippie.bmp">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\default\monzon.bmp">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\default\oneplant.bmp">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\default\potzilla.bmp">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\default\sixplant.bmp">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\default\stealer.bmp">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\default\threeplant.bmp">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\default\twoplant.bmp">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\default\weedkiller.bmp">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Images\empty.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Images\default\fourplant.jpg">
@@ -138,433 +96,433 @@
     <None Update="Images\empty.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\gold\busted.bmp">
+    <None Update="Images\gold\busted.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\gold\dandelion.bmp">
+    <None Update="Images\gold\dandelion.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\gold\dog.bmp">
+    <None Update="Images\gold\dog.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\gold\fourplant.bmp">
+    <None Update="Images\gold\fourplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\gold\hippie.bmp">
+    <None Update="Images\gold\hippie.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\gold\monzon.bmp">
+    <None Update="Images\gold\monzon.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\gold\oneplant.bmp">
+    <None Update="Images\gold\oneplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\gold\potzilla.bmp">
+    <None Update="Images\gold\potzilla.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\gold\sixplant.bmp">
+    <None Update="Images\gold\sixplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\gold\stealer.bmp">
+    <None Update="Images\gold\stealer.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\gold\threeplant.bmp">
+    <None Update="Images\gold\threeplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\gold\twoplant.bmp">
+    <None Update="Images\gold\twoplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\gold\weedkiller.bmp">
+    <None Update="Images\gold\weedkiller.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\green\busted.bmp">
+    <None Update="Images\green\busted.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\green\dandelion.bmp">
+    <None Update="Images\green\dandelion.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\green\dog.bmp">
+    <None Update="Images\green\dog.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\green\fourplant.bmp">
+    <None Update="Images\green\fourplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\green\hippie.bmp">
+    <None Update="Images\green\hippie.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\green\monzon.bmp">
+    <None Update="Images\green\monzon.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\green\oneplant.bmp">
+    <None Update="Images\green\oneplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\green\potzilla.bmp">
+    <None Update="Images\green\potzilla.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\green\sixplant.bmp">
+    <None Update="Images\green\sixplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\green\stealer.bmp">
+    <None Update="Images\green\stealer.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\green\threeplant.bmp">
+    <None Update="Images\green\threeplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\green\twoplant.bmp">
+    <None Update="Images\green\twoplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\green\weedkiller.bmp">
+    <None Update="Images\green\weedkiller.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\night\busted.bmp">
+    <None Update="Images\night\busted.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\night\dandelion.bmp">
+    <None Update="Images\night\dandelion.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\night\dog.bmp">
+    <None Update="Images\night\dog.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\night\fourplant.bmp">
+    <None Update="Images\night\fourplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\night\hippie.bmp">
+    <None Update="Images\night\hippie.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\night\monzon.bmp">
+    <None Update="Images\night\monzon.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\night\oneplant.bmp">
+    <None Update="Images\night\oneplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\night\potzilla.bmp">
+    <None Update="Images\night\potzilla.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\night\sixplant.bmp">
+    <None Update="Images\night\sixplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\night\stealer.bmp">
+    <None Update="Images\night\stealer.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\night\threeplant.bmp">
+    <None Update="Images\night\threeplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\night\twoplant.bmp">
+    <None Update="Images\night\twoplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\night\weedkiller.bmp">
+    <None Update="Images\night\weedkiller.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\orange\busted.bmp">
+    <None Update="Images\orange\busted.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\orange\dandelion.bmp">
+    <None Update="Images\orange\dandelion.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\orange\dog.bmp">
+    <None Update="Images\orange\dog.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\orange\fourplant.bmp">
+    <None Update="Images\orange\fourplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\orange\hippie.bmp">
+    <None Update="Images\orange\hippie.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\orange\monzon.bmp">
+    <None Update="Images\orange\monzon.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\orange\oneplant.bmp">
+    <None Update="Images\orange\oneplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\orange\potzilla.bmp">
+    <None Update="Images\orange\potzilla.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\orange\sixplant.bmp">
+    <None Update="Images\orange\sixplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\orange\stealer.bmp">
+    <None Update="Images\orange\stealer.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\orange\threeplant.bmp">
+    <None Update="Images\orange\threeplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\orange\twoplant.bmp">
+    <None Update="Images\orange\twoplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\orange\weedkiller.bmp">
+    <None Update="Images\orange\weedkiller.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\pink\busted.bmp">
+    <None Update="Images\pink\busted.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\pink\dandelion.bmp">
+    <None Update="Images\pink\dandelion.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\pink\dog.bmp">
+    <None Update="Images\pink\dog.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\pink\fourplant.bmp">
+    <None Update="Images\pink\fourplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\pink\hippie.bmp">
+    <None Update="Images\pink\hippie.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\pink\monzon.bmp">
+    <None Update="Images\pink\monzon.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\pink\oneplant.bmp">
+    <None Update="Images\pink\oneplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\pink\potzilla.bmp">
+    <None Update="Images\pink\potzilla.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\pink\sixplant.bmp">
+    <None Update="Images\pink\sixplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\pink\stealer.bmp">
+    <None Update="Images\pink\stealer.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\pink\threeplant.bmp">
+    <None Update="Images\pink\threeplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\pink\twoplant.bmp">
+    <None Update="Images\pink\twoplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\pink\weedkiller.bmp">
+    <None Update="Images\pink\weedkiller.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\purple\busted.bmp">
+    <None Update="Images\purple\busted.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\purple\dandelion.bmp">
+    <None Update="Images\purple\dandelion.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\purple\dog.bmp">
+    <None Update="Images\purple\dog.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\purple\fourplant.bmp">
+    <None Update="Images\purple\fourplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\purple\hippie.bmp">
+    <None Update="Images\purple\hippie.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\purple\monzon.bmp">
+    <None Update="Images\purple\monzon.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\purple\oneplant.bmp">
+    <None Update="Images\purple\oneplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\purple\potzilla.bmp">
+    <None Update="Images\purple\potzilla.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\purple\sixplant.bmp">
+    <None Update="Images\purple\sixplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\purple\stealer.bmp">
+    <None Update="Images\purple\stealer.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\purple\threeplant.bmp">
+    <None Update="Images\purple\threeplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\purple\twoplant.bmp">
+    <None Update="Images\purple\twoplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\purple\weedkiller.bmp">
+    <None Update="Images\purple\weedkiller.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\rainbow\busted.bmp">
+    <None Update="Images\rainbow\busted.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\rainbow\dandelion.bmp">
+    <None Update="Images\rainbow\dandelion.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\rainbow\dog.bmp">
+    <None Update="Images\rainbow\dog.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\rainbow\fourplant.bmp">
+    <None Update="Images\rainbow\fourplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\rainbow\hippie.bmp">
+    <None Update="Images\rainbow\hippie.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\rainbow\monzon.bmp">
+    <None Update="Images\rainbow\monzon.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\rainbow\oneplant.bmp">
+    <None Update="Images\rainbow\oneplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\rainbow\potzilla.bmp">
+    <None Update="Images\rainbow\potzilla.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\rainbow\sixplant.bmp">
+    <None Update="Images\rainbow\sixplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\rainbow\stealer.bmp">
+    <None Update="Images\rainbow\stealer.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\rainbow\threeplant.bmp">
+    <None Update="Images\rainbow\threeplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\rainbow\twoplant.bmp">
+    <None Update="Images\rainbow\twoplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\rainbow\weedkiller.bmp">
+    <None Update="Images\rainbow\weedkiller.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\red\busted.bmp">
+    <None Update="Images\red\busted.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\red\dandelion.bmp">
+    <None Update="Images\red\dandelion.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\red\dog.bmp">
+    <None Update="Images\red\dog.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\red\fourplant.bmp">
+    <None Update="Images\red\fourplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\red\hippie.bmp">
+    <None Update="Images\red\hippie.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\red\monzon.bmp">
+    <None Update="Images\red\monzon.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\red\oneplant.bmp">
+    <None Update="Images\red\oneplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\red\potzilla.bmp">
+    <None Update="Images\red\potzilla.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\red\sixplant.bmp">
+    <None Update="Images\red\sixplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\red\stealer.bmp">
+    <None Update="Images\red\stealer.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\red\threeplant.bmp">
+    <None Update="Images\red\threeplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\red\twoplant.bmp">
+    <None Update="Images\red\twoplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\red\weedkiller.bmp">
+    <None Update="Images\red\weedkiller.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\sky\busted.bmp">
+    <None Update="Images\sky\busted.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\sky\dandelion.bmp">
+    <None Update="Images\sky\dandelion.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\sky\dog.bmp">
+    <None Update="Images\sky\dog.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\sky\fourplant.bmp">
+    <None Update="Images\sky\fourplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\sky\hippie.bmp">
+    <None Update="Images\sky\hippie.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\sky\monzon.bmp">
+    <None Update="Images\sky\monzon.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\sky\oneplant.bmp">
+    <None Update="Images\sky\oneplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\sky\potzilla.bmp">
+    <None Update="Images\sky\potzilla.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\sky\sixplant.bmp">
+    <None Update="Images\sky\sixplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\sky\stealer.bmp">
+    <None Update="Images\sky\stealer.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\sky\threeplant.bmp">
+    <None Update="Images\sky\threeplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\sky\twoplant.bmp">
+    <None Update="Images\sky\twoplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\sky\weedkiller.bmp">
+    <None Update="Images\sky\weedkiller.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\smoke\busted.bmp">
+    <None Update="Images\smoke\busted.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\smoke\dandelion.bmp">
+    <None Update="Images\smoke\dandelion.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\smoke\dog.bmp">
+    <None Update="Images\smoke\dog.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\smoke\fourplant.bmp">
+    <None Update="Images\smoke\fourplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\smoke\hippie.bmp">
+    <None Update="Images\smoke\hippie.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\smoke\monzon.bmp">
+    <None Update="Images\smoke\monzon.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\smoke\oneplant.bmp">
+    <None Update="Images\smoke\oneplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\smoke\potzilla.bmp">
+    <None Update="Images\smoke\potzilla.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\smoke\sixplant.bmp">
+    <None Update="Images\smoke\sixplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\smoke\stealer.bmp">
+    <None Update="Images\smoke\stealer.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\smoke\threeplant.bmp">
+    <None Update="Images\smoke\threeplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\smoke\twoplant.bmp">
+    <None Update="Images\smoke\twoplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\smoke\weedkiller.bmp">
+    <None Update="Images\smoke\weedkiller.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\yellow\busted.bmp">
+    <None Update="Images\yellow\busted.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\yellow\dandelion.bmp">
+    <None Update="Images\yellow\dandelion.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\yellow\dog.bmp">
+    <None Update="Images\yellow\dog.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\yellow\fourplant.bmp">
+    <None Update="Images\yellow\fourplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\yellow\hippie.bmp">
+    <None Update="Images\yellow\hippie.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\yellow\monzon.bmp">
+    <None Update="Images\yellow\monzon.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\yellow\oneplant.bmp">
+    <None Update="Images\yellow\oneplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\yellow\potzilla.bmp">
+    <None Update="Images\yellow\potzilla.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\yellow\sixplant.bmp">
+    <None Update="Images\yellow\sixplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\yellow\stealer.bmp">
+    <None Update="Images\yellow\stealer.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\yellow\threeplant.bmp">
+    <None Update="Images\yellow\threeplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\yellow\twoplant.bmp">
+    <None Update="Images\yellow\twoplant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Images\yellow\weedkiller.bmp">
+    <None Update="Images\yellow\weedkiller.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
