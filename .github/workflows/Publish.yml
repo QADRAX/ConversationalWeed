@@ -29,12 +29,11 @@ jobs:
         dotnet-version: 3.1.x
     - name: Clean
       run: dotnet clean ./ConversationalWeed.sln --configuration Release && dotnet nuget locals all --clear
-    - name: Restore dependencies
-      run: dotnet restore
     - name: Build
       shell: bash
       run: |
-          release_name="ConversationalWeed-${{ matrix.target }}"
+          tag=$(git describe --tags --abbrev=0)
+          release_name="ConversationalWeed-$tag-${{ matrix.target }}"
 
           # Build everything
           dotnet publish src/ConversationalWeed.Host/ConversationalWeed.Host.csproj --framework netcoreapp3.1 --runtime "${{ matrix.target }}" -c Release -o "$release_name"
