@@ -17,9 +17,7 @@ The game requires a connection to a mySQL database. Just setup your mySql databa
 
 ```json
 {
-    ...
     "WeedDatabase": "Server={YourServer}; Port={YourPort}; Database=conversational_weed; Uid={YourUser}; Pwd={YourPassword}; SslMode=Preferred;"
-    ...
 }
 
 ```
@@ -43,14 +41,12 @@ Before running this bot, it is necessary to create a bot account via the Discord
 
 ```json
 {
-    ...
     "DiscordToken": "{YourToken}"
-    ...
 }
 
 ```
 
-### 4) Adding your bot to a Discord server
+### 4) Add your bot to a Discord server
 
 - On the left-hand side, under Settings, click OAuth2.
 - Scroll down to OAuth2 URL Generator and under Scopes tick bot.
